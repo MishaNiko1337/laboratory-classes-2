@@ -1,3 +1,9 @@
 const PORT = 3000;
 
-module.exports = { PORT };
+const STATUS_CODE = {
+  OK: 200,
+  FOUND: 302,
+  NOT_FOUND: 404
+};
+
+module.exports = { PORT, STATUS_CODE };

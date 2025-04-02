@@ -1,24 +1,28 @@
 {
   "name": "laboratory-classes-2",
   "version": "1.0.0",
-  "description": "",
+  "description": "W trakcie pracy nad zadaniami (ćwiczeniami), będziecie spotykać się z różnymi pomocnikami, którzy będą wskazywać, co należy zrobić w danym fragmencie kodu. Im dalsze ćwiczenie, tym rzadziej będą się pojawiać. Oto krótka charakterystyka każdego z nich:",
   "main": "config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    /* 🔄 Refactoro the Changer 
-    Skrypt "start" wymaga modyfikacji! Zmień go tak, aby korzystał z "nodemon", 
-    a nie bezpośrednio z "node". */
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
-    /* 📦 Dependy the Importer 
-    W tej sekcji powinny znaleźć się zależności produkcyjne. 
-    Dodaj tutaj "express" oraz "body-parser". */
-  "dependencies": {},
-    /* 📦 Dependy the Importer 
-    Tutaj dodajemy zależności deweloperskie. 
-    Zainstaluj "nodemon" i umieść go w tej sekcji! */
-  "devDependencies": {}
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MishaNiko1337/laboratory-classes-2.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/MishaNiko1337/laboratory-classes-2/issues"
+  },
+  "homepage": "https://github.com/MishaNiko1337/laboratory-classes-2#readme"
 }
-
